@@ -1,0 +1,26 @@
+{% assign my_first = "Louis" %}
+{% assign my_last = "Carpentier" %}
+
+<article class="publication">
+  <div class="publication-ref">
+    {% for author in include.authors %}
+      {% if author.first == my_first and author.last == my_last %}
+        <strong>{{ author.first }} {{ author.last }}</strong>
+      {% else %}
+        {{ author.first }} {{ author.last }}
+      {% endif %}
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    “{{ include.title }}.”
+    {% if include.venue %}{{ include.venue }}, {% endif %}
+    {% if include.year %}{{ include.year }}, {% endif %}
+    {% if include.doi %}
+      doi: <a href="https://doi.org/{{ include.doi }}">{{ include.doi }}</a>.
+    {% endif %}
+  </div>
+
+  <!-- Optional content below -->
+  <div class="pub-content">
+    {{ include.content }}
+  </div>
+</article>

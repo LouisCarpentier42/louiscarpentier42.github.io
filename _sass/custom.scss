@@ -1,0 +1,27 @@
+/* _sass/custom.scss */
+
+/* Make icons inherit the text color of their container */
+.author__urls i,
+.author__urls .fa,
+.author__urls .fab,
+.author__urls .ai,
+.author__urls svg,
+.social-icons i,
+.social-icons svg,
+.page__meta i,
+.page__meta svg {
+  color: inherit !important;
+  fill: currentColor !important;
+  stroke: currentColor !important;
+}
+
+/* Decrease font size of publication references */
+.publication-ref {
+  font-size: 0.7rem;   /* smaller font for references */
+  line-height: 1.3;     /* optional: tighter spacing */
+  margin-bottom: 0.5em; /* spacing between reference and content */
+}
+
+.sidebar p {
+  margin-top: 0.1em;    /* reduces space above the paragraph */
+}
