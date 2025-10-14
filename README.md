@@ -2,6 +2,8 @@
 
 [![alt text](https://img.shields.io/badge/View-online-blue)](https://louiscarpentier42.github.io/)
 
+Maybe we could add a cool background with something moving, for example a snake AI that is playing?
+
 ---
 
 ## Troubleshooting
