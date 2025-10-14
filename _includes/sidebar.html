@@ -22,10 +22,17 @@
   <div class="sidebar sticky">
     {% for author in page.authors %}
       {% assign key = author.first | downcase | replace: " ", "_" | append: "_" | append: author.last | downcase | replace: " ", "_" %}
+      {% assign a = site.data.authors[key] %}
+
       <h3>{{ author.first }} {{ author.last }}</h3>
-      {% if site.data.authors[key].affiliation %}
-        <p>{{ site.data.authors[key].affiliation }}</p>
+
+      <p>
+      {{ a.affiliation }}
+      {% if a.website %}
+          (<a href="{{ a.website }}" target="_blank" rel="noopener">website</a>)
       {% endif %}
+      </p>
+
     {% endfor %}
   </div>
 {% endif %}

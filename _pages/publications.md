@@ -13,12 +13,7 @@ collection: publications
     <h2>{{ group.name }}</h2>
       {% for pub in group.items %}
         <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a><br>
-            {% include publication_entry.html
-                authors=pub.authors
-                title=pub.title
-                venue=pub.venue
-                year=pub.year
-                doi=pub.doi %}
+          {% include publication_entry.html page=pub %}
       {% endfor %}
   {% endfor %}
 </ul>

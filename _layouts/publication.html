@@ -6,12 +6,7 @@ layout: single
 {% assign my_last = "Carpentier" %}
 
 <article class="publication">
-  {% include publication_entry.html
-     authors=page.authors
-     title=page.title
-     venue=page.venue
-     year=page.year
-     doi=page.doi %}
+  {% include publication_entry.html page=page %}
 
   <div class="pub-content">
     {{ content }}

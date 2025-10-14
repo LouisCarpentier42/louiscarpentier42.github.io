@@ -46,7 +46,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -89,7 +88,7 @@ defaults:
       path: "_publications"
       type: publications
     values:
-      layout: single
+      layout: publication
       share: false
       related: false
 

@@ -3,24 +3,21 @@
 
 <article class="publication">
   <div class="publication-ref">
-    {% for author in include.authors %}
+    {% for author in include.page.authors %}
       {% if author.first == my_first and author.last == my_last %}
         <strong>{{ author.first }}, {{ author.last }}</strong>;
       {% else %}
         {{ author.first }}, {{ author.last }};
       {% endif %}
     {% endfor %}
-    “{{ include.title }}.”
-    {% if include.venue %}<i>{{ include.venue }}</i>, {% endif %}
-    {% if include.year %}{{ include.year }}, {% endif %}
-    {% if include.doi %}
-      doi: <a href="https://doi.org/{{ include.doi }}">{{ include.doi }}</a>
+    {% if include.page.arxiv %}
+      “{{ include.page.title }}.” <i> arXiv preprint <a href="https://arxiv.org/abs/{{ include.page.arxiv }}"> arXiv:{{ include.page.arxiv }}</a> </i> ({{ include.page.year }}).
+    {% else %}
+      {% if include.page.doi %}
+        “{{ include.page.title }}.” <i>{{ include.page.venue }}</i>, {{ include.page.year }}, doi: <a href="https://doi.org/{{ include.page.doi }}">{{ include.page.doi }}</a>.
+      {% else %}
+        “{{ include.page.title }}.” <i>{{ include.page.venue }}</i>, {{ include.page.year }}.
+      {% endif %}
     {% endif %}
-    .
-  </div>
-
-  <!-- Optional content below -->
-  <div class="pub-content">
-    {{ include.content }}
   </div>
 </article>
