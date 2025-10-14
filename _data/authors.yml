@@ -1,11 +1,16 @@
-louis_carpentier:
-  affiliation: "DTAI, KU Leuven"
 
-mathias_verbeke:
-  affiliation: "DTAI, KU Leuven"
-
-wannes_meert:
-  affiliation: "DTAI, KU Leuven"
+arne_de_temmerman:
+  image: https://www.kuleuven.be/wieiswie/nl/person/00158714/photo
+  affiliation: DTAI, KU Leuven
 
 len_feremans:
-  affiliation: "ADReM, Universiteit Antwerp"
+  affiliation: ADReM, Universiteit Antwerp
+
+louis_carpentier:
+  affiliation: DTAI, KU Leuven
+
+mathias_verbeke:
+  affiliation: DTAI, KU Leuven
+
+wannes_meert:
+  affiliation: DTAI, KU Leuven

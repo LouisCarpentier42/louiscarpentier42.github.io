@@ -13,9 +13,6 @@ year: 2024
 venue: SIAM International Conference on Data Mining (SDM)
 doi: 10.1137/1.9781611978032.36
 layout: publication
-authors_keys:
-  - louis_carpentier
-  - maria_gonzalez
 ---
 
 The content of this page ... 

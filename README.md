@@ -2,11 +2,6 @@
 
 [![alt text](https://img.shields.io/badge/View-online-blue)](https://louiscarpentier42.github.io/)
 
-TODO
-- [ ] Formatting on the publication page
-- [ ] Remove space before comma in publication references
-- [ ] Fill the content of the pages
-
 ---
 
 ## Troubleshooting
