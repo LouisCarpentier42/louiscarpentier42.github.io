@@ -2,6 +2,11 @@
 
 [![alt text](https://img.shields.io/badge/View-online-blue)](https://louiscarpentier42.github.io/)
 
+Things I could/should add in the future
+- experience in "about me"
+- Team tab with all the people I collaborated with (could be automatic based on _data/authors file? Or at least PhDs I helped to guide
+- Where do I put ESEO students?
+
 ---
 
 ## Troubleshooting
