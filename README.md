@@ -7,6 +7,8 @@ Things I could/should add in the future
 - Team tab with all the people I collaborated with (could be automatic based on _data/authors file? Or at least PhDs I helped to guide
 - Where do I put ESEO students?
 
+Maybe we could add a cool background with something moving, for example a snake AI that is playing?
+
 ---
 
 ## Troubleshooting
