@@ -2,6 +2,12 @@
 
 [![alt text](https://img.shields.io/badge/View-online-blue)](https://louiscarpentier42.github.io/)
 
+
+Ideas for software page:
+- Maybe add the toolboxes to a data file, and then also sort them based on the most recent commit? I would still categorise in research and other,but then the ordering within that could be based on the last commit. 
+- Badges for paper: [info|paper]
+
+
 Things I could/should add in the future
 - experience in "about me"
 - Team tab with all the people I collaborated with (could be automatic based on _data/authors file? Or at least PhDs I helped to guide
