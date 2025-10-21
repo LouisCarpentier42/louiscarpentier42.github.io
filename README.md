@@ -6,6 +6,7 @@ Things I could/should add in the future
 - experience in "about me"
 - Team tab with all the people I collaborated with (could be automatic based on _data/authors file? Or at least PhDs I helped to guide
 - Where do I put ESEO students?
+- A tab thesis with a summary of my phd thesis. 
 
 Maybe we could add a cool background with something moving, for example a snake AI that is playing?
 

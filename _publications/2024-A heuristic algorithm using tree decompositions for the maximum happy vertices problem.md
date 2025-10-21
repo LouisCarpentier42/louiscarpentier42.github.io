@@ -11,4 +11,3 @@ year: 2024
 venue: Journal of Heuristics (JoH)
 doi: 10.1007/s10732-023-09522-x
 ---
-
