@@ -93,6 +93,7 @@ defaults:
       related: false
       toc: true
       toc_label: "Content"
+      mathjax: true
 
 atom_feed:
   hide: true
