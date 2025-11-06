@@ -16,6 +16,11 @@ Things I could/should add in the future
 
 Maybe we could add a cool background with something moving, for example a snake AI that is playing?
 
+
+```bash 
+bundle exec jekyll serve
+```
+
 ---
 
 ## Troubleshooting

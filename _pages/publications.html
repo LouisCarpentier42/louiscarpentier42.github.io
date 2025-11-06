@@ -11,7 +11,11 @@ collection: publications
 {% for group in grouped_pubs %}
   <h2>{{ group.name }}</h2>
     {% for pub in group.items %}
-      <a class="publication-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a><br>
+      {% if pub.custom_url %}
+        <a class="publication-title" href="{{ pub.custom_url }}">{{ pub.title }}</a><br>
+      {% else %}
+          <a class="publication-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a><br>
+      {% endif %}
       {% include publication_entry.html page=pub %}
     {% endfor %}
 {% endfor %}
