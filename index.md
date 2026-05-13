@@ -13,6 +13,7 @@ and performance of existing anomaly detection algorithms under varying condition
 
 My research interests are:
 - Time series analytics, including anomaly detection, motif discovery, semantic segmentation, clustering and classification. 
+- Understanding when anomaly detection models succeed but also when they fail. 
 - Learning patterns and meaningful representations from time series. 
 - Explainable AI for time series, with a focus on inherently interpretable models. 
 

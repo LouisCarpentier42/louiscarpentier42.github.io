@@ -32,7 +32,7 @@ Louis Carpentier, Len Feremans, Wannes Meert and Mathias Verbeke. _"Pattern-base
 [![paper](https://img.icons8.com/ios-filled/20/file.png)](https://doi.org/10.1137/1.9781611978032.36)
 [![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://gitlab.kuleuven.be/u0143709/patss)
 
-Carpentier Louis, Arne De Temmerman and Mathias Verbeke. _"Towards contextual, cost-efficient predictive maintenance in heavy-duty trucks."_ Proceedings of the 22nd International Symposium on Intelligent Data Analysis (IDA), doi: 10.1007/978-3-031-58553-1_21.
+Louis Carpentier, Arne De Temmerman and Mathias Verbeke. _"Towards contextual, cost-efficient predictive maintenance in heavy-duty trucks."_ Proceedings of the 22nd International Symposium on Intelligent Data Analysis (IDA), doi: 10.1007/978-3-031-58553-1_21.
 [![paper](https://img.icons8.com/ios-filled/20/file.png)](https://doi.org/10.1007/978-3-031-58553-1_21)
 [![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://gitlab.kuleuven.be/m-group-campus-brugge/dtai_public/publications/ida-industrial-challenge-2024)
 
