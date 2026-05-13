@@ -1,0 +1,104 @@
+---
+---
+
+/* Widen the wrapper to accommodate sidebar + content */
+.wrapper {
+  max-width: 1100px;
+}
+
+/* Two-column grid layout */
+.site-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 2em;
+  align-items: start;
+}
+
+/* Sticky sidebar so it stays visible while scrolling */
+.site-sidebar {
+  position: sticky;
+  top: 2em;
+}
+
+/* Author profile card */
+.author-profile {
+  padding: 1.5em 0;
+  font-size: 0.9em;
+}
+
+.author-avatar__img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.author-name {
+  margin: 0 0 0.4em;
+  font-size: 1.1em;
+}
+
+.author-bio {
+  margin: 0 0 0.5em;
+  color: #555;
+  line-height: 1.4;
+}
+
+.author-location {
+  margin: 0 0 0.8em;
+  color: #777;
+  font-size: 0.85em;
+}
+
+.author-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.author-links li {
+  margin-bottom: 0.4em;
+}
+
+.author-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  color: inherit;
+  text-decoration: none;
+}
+
+.author-links a:hover {
+  text-decoration: underline;
+}
+
+.author-links i {
+  width: 1.2em;
+  text-align: center;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .site-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .site-sidebar {
+    position: static;
+  }
+}
+
+/* Smooth cross-document page transitions (Chrome 126+, Firefox 131+, Safari 18.2+) */
+@view-transition {
+  navigation: auto;
+}
+
+/* Sidebar and header are identical on every page — mark as shared elements so they
+   stay static during the transition instead of fading out and back in */
+.site-sidebar {
+  view-transition-name: site-sidebar;
+}
+
+.site-header {
+  view-transition-name: site-header;
+}

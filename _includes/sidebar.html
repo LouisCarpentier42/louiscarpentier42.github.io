@@ -1,38 +1,30 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-      <img src="{{ s.image | relative_url }}"
-           alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
-    {% endfor %}
-    {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
-    {% endif %}
-  {% endif %}
+<div class="author-profile">
+  {%- if site.author.avatar -%}
+  <div class="author-avatar">
+    <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" class="author-avatar__img">
   </div>
-{% endif %}
+  {%- endif -%}
 
-{% if page.authors %}
-  <div class="sidebar sticky">
-    {% for author in page.authors %}
-      {% assign key = author.first | downcase | replace: " ", "_" | append: "_" | append: author.last | downcase | replace: " ", "_" %}
-      {% assign a = site.data.authors[key] %}
-
-      <h3>{{ author.first }} {{ author.last }}</h3>
-
-      <p>
-      {{ a.affiliation }}
-      {% if a.website %}
-          (<a href="{{ a.website }}" target="_blank" rel="noopener">website</a>)
-      {% endif %}
-      </p>
-
-    {% endfor %}
+  <div class="author-content">
+    <h3 class="author-name">{{ site.author.name }}</h3>
+    {%- if site.author.bio -%}
+    <p class="author-bio">{{ site.author.bio }}</p>
+    {%- endif -%}
+    {%- if site.author.location -%}
+    <p class="author-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ site.author.location }}</p>
+    {%- endif -%}
   </div>
-{% endif %}
+
+  {%- if site.author.links -%}
+  <ul class="author-links">
+    {%- for link in site.author.links -%}
+    <li>
+      <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
+        <i class="{{ link.icon }}" aria-hidden="true"></i>
+        <span>{{ link.label }}</span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>

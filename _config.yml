@@ -1,62 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Hi, I am Louis Carpentier
-email: louis.carpentier@hotmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Hi, my name is Louis Carpentier, and this is my personal webpage.
-minimal_mistakes_skin: default
-search: false
-
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+theme: minima
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jemoji
-  - jekyll-include-cache
-
 author:
-  name     : "Louis Carpentier"
-  avatar   : "https://github.com/LouisCarpentier42.png"
-  bio      : "PhD researcher in Computer Science at DTAI (KU Leuven, Belgium)"
-  location : "Bruges, Belgium"
+  name: "Louis Carpentier"
+  avatar: "https://github.com/LouisCarpentier42.png"
+  bio: "PhD researcher in Computer Science at DTAI (KU Leuven, Belgium)"
+  location: "Bruges, Belgium"
   links:
     - label: "Email"
-      icon: "fa fa-envelope"
+      icon: "fas fa-envelope"
       url: "mailto:louis.carpentier@kuleuven.be"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
@@ -65,35 +20,8 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/LouisCarpentier42"
     - label: "Google Scholar"
-      icon: "fa fa-graduation-cap"
+      icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=85qn38YAAAAJ"
     - label: "0000-0002-3679-8873"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0000-0002-3679-8873"
-
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _publications
-  - scope:
-      path: "_publications"
-      type: publications
-    values:
-      layout: publication
-      share: false
-      related: false
-      toc: true
-      toc_label: "Content"
-      mathjax: true
-
-atom_feed:
-  hide: true

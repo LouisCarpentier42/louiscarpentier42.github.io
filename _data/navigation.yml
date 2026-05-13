@@ -1,11 +1,9 @@
 main:
-  - title: Home
+  - title: "Home"
     url: /
-  - title: About me
-    url: /about-me/
-  - title: Publications
+  - title: "About me"
+    url: /about/
+  - title: "Publications"
     url: /publications/
-  - title: Teaching
+  - title: "Teaching"
     url: /teaching/
-  - title: Software
-    url: /software/
