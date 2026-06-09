@@ -7,6 +7,9 @@ title: ""
 
 ### 2026 
 
+Louis Carpentier, Laurens Devos, Wannes Meert and Mathias Verbeke. _"HydraAD: Exceptionally fast and accurate time series anomaly detection using competing random kernels."_ Data Mining And Knowledge Discovery.
+[![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://github.com/ML-KULeuven/HydraAD)
+
 Louis Carpentier, Laurens Devos, Wannes Meert and Mathias Verbeke. _"SubTSMD: discovering subspace motifs with temporal variations in multivariate time series."_ Data Mining And Knowledge Discovery.
 [![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://github.com/ML-KULeuven/SubTSMD)
 
