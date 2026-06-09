@@ -68,12 +68,12 @@ An introductory course to programming with Python.
 **2026** — **Jarno Mechele**  
 _Title._ Causal discovery in large time-series data
 
-**2025** — **Guillaume Mertens**
+**2025** — **Guillaume Mertens**  
 _Title._ Qualitative Evaluation of Time Series Anomaly Detection
 
 #### Internship students
 
-**2026** — **Dianguina Bah**
+**2026** — **Dianguina Bah**  
 _Title._ Teachable Robot: Developing an Extendable Application for Teaching Machine Vision
 
 **2025** — **Sylvain Coudray**  
