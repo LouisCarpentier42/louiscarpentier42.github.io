@@ -18,9 +18,9 @@ _Location._ KU Leuven campus Bruges
 _Thesis._ Context Aware Anomaly Detection for Dynamic, Industrial Settings  
 _Supervisors._ Prof. Mathias Verbeke, Dr. Wannes Meert
 
-**2020 - 2022** — **Master of engineering: computer science (option: Artificial Intelligence)**
+**2020 - 2022** — **Master of engineering: computer science (option: Artificial Intelligence)**  
 _Location._ KU Leuven campus Leuven  
-_Thesis._ Heuristic Algorithms For Graph Optimisation Problems Using Tree Decompositions
+_Thesis._ Heuristic Algorithms For Graph Optimisation Problems Using Tree Decompositions  
 _Supervisors._ Prof. Jan Goedgebeur, Dr. Jorik Jooken  
 
 **2017 - 2020** — **Bachelor of Informatics**  
