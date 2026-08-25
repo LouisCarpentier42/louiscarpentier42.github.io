@@ -7,17 +7,19 @@ title: ""
 
 ### 2026 
 
-Louis Carpentier, Laurens Devos, Wannes Meert and Mathias Verbeke. _"HydraAD: Exceptionally fast and accurate time series anomaly detection using competing random kernels."_ Data Mining And Knowledge Discovery.
+Louis Carpentier, Laurens Devos, Wannes Meert and Mathias Verbeke. _"HydraAD: Exceptionally fast and accurate time series anomaly detection using competing random kernels."_ Data Mining And Knowledge Discovery, DOI: 10.1007/978-3-032-37654-1_7.
+[![paper](https://img.icons8.com/ios-filled/20/file.png)](https://doi.org/10.1007/978-3-032-37654-1_7)
 [![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://github.com/ML-KULeuven/HydraAD)
 
-Louis Carpentier, Laurens Devos, Wannes Meert and Mathias Verbeke. _"SubTSMD: discovering subspace motifs with temporal variations in multivariate time series."_ Data Mining And Knowledge Discovery.
+Louis Carpentier, Laurens Devos, Wannes Meert and Mathias Verbeke. _"SubTSMD: discovering subspace motifs with temporal variations in multivariate time series."_ Data Mining And Knowledge Discovery, DOI: 10.1007/s10618-026-01218-7.
+[![paper](https://img.icons8.com/ios-filled/20/file.png)](https://doi.org/10.1007/s10618-026-01218-7)
 [![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://github.com/ML-KULeuven/SubTSMD)
 
 Louis Carpentier, Wannes Meert and Mathias Verbeke. _"InTimeAD: Interactive Time Series Anomaly Detection."_ Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), doi: 10.1609/aaai.v40i48.42336.
 [![paper](https://img.icons8.com/ios-filled/20/file.png)](https://doi.org/10.1609/aaai.v40i48.42336)
 [![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://github.com/ML-KULeuven/InTimeAD)
 [![movie](https://img.icons8.com/ios-glyphs/20/movie.png)](https://doi.org/10.48448/wgp5-gw94)
-[![movie](https://img.icons8.com/ios-glyphs/20/domain.png)](https://intimead.cs.kuleuven.be/)
+[![website](https://img.icons8.com/ios-glyphs/20/domain.png)](https://intimead.cs.kuleuven.be/)
 
 Xiaokum Zhu, Louis Carpentier and Mathias Verbeke. _"When Foundation Models are One-Liners: Limitations and Future Directions for Time Series Anomaly Detection."_ Proceedings of the International Conference on Learning Representations (ICLR).
 [![paper](https://img.icons8.com/ios-filled/20/file.png)](https://iclr.cc/virtual/2026/poster/10010437)
