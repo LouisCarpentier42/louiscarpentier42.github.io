@@ -6,10 +6,9 @@ title: ""
 
 # Welcome!
 
-I am a doctoral researcher in the [dtai research group](https://dtai.cs.kuleuven.be/) and [M-Group](https://iiw.kuleuven.be/onderzoek/m-group) at [KU Leuven](https://www.kuleuven.be/english/kuleuven/), under the supervision of Mathias Verbeke and Wannes Meert. 
+I am a postdoctoral researcher in the [dtai research group](https://dtai.cs.kuleuven.be/) at [KU Leuven](https://www.kuleuven.be/english/kuleuven/), under the supervision of Mathias Verbeke, Hendrik Blockeel and Wannes Meert. 
 
-My research focuses on context-aware time series anomaly detection, where I aim to automatically retrieve the important contextual information from the data and leverage it to improve anomaly detection performance. I also study the behavior 
-and performance of existing anomaly detection algorithms under varying conditions to see when and why they succeed or fail. Besides research in anomaly detection, I also focus on learning interpretable representations from time series data which are applicable in various time series analysis tasks, including but not limited to anomaly detection. 
+My research focuses on context-aware time series anomaly detection, where I aim to automatically retrieve the important contextual information from the data and leverage it to improve anomaly detection performance. I also study the behavior and performance of existing anomaly detection algorithms under varying conditions to see when and why they succeed or fail. Besides research in anomaly detection, I also focus on learning interpretable representations from time series data which are applicable in various time series analysis tasks, including but not limited to anomaly detection. 
 
 My research interests are:
 - Time series analytics, including anomaly detection, motif discovery, semantic segmentation, clustering and classification. 

@@ -13,7 +13,7 @@ The faculty of Engineering Science at KU Leuven awarded my master's thesis with 
 
 ### Education
 
-**2022 - present** — **Ph.D. in Engineering Technology: Computer Science**  
+**2022 - 2026** — **Ph.D. in Engineering Technology: Computer Science**  
 _Location._ KU Leuven campus Bruges  
 _Thesis._ Context Aware Anomaly Detection for Dynamic, Industrial Settings  
 _Supervisors._ Prof. Mathias Verbeke, Dr. Wannes Meert

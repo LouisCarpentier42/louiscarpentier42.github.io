@@ -7,13 +7,10 @@ title: ""
 
 ### Courses
 
-**2026** — **Machine learning [B-KUL-B307A4](https://onderwijsaanbod.kuleuven.be/syllabi/v/e/B307A4)**  
-Students learn the basics of machine learning, including classification, regression, clustering, deep learning, experimental analysis, ...
+**2026-present** — **Applied AI: Academic Perspectives - Time series [[B5517T](https://onderwijsaanbod.kuleuven.be/syllabi/e/B30773)]**  
+Students learn about different AI technologies for time series analysis. To this end, the student learns to identify situations where AI can create added value, to select the most suitable AI method, to develop an AI solution, and to evaluate whether the AI solution has achieved its goal.
 
-**2025** — **Machine learning [B-KUL-B307A4](https://onderwijsaanbod.kuleuven.be/syllabi/v/e/B307A4)**  
-Students learn the basics of machine learning, including classification, regression, clustering, deep learning, experimental analysis, ...
-
-**2024** — **Machine learning [B-KUL-B307A4](https://onderwijsaanbod.kuleuven.be/syllabi/v/e/B307A4)**  
+**2024-present** — **Machine learning [[B-KUL-B307A4](https://onderwijsaanbod.kuleuven.be/syllabi/v/e/B307A4)]**  
 Students learn the basics of machine learning, including classification, regression, clustering, deep learning, experimental analysis, ...
 
 **2021** — **Methodiek Van De Informatica**  
@@ -22,6 +19,18 @@ An introductory course to programming with Python.
 ### Student supervision
 
 #### Master's thesis guidance
+
+**2026–2027** — **Jimin Hong**  
+*Title.* Motif discovery for time series anomaly detection    
+*Program.* Master of Science in de ingenieurswetenschappen: computerwetenschappen
+
+**2026–2027** — **Yingshi Chen**  
+*Title.* Leveraging time series causal discover for anomaly detection and diagnosis     
+*Program.* Master of Science in Artificial Intelligence in Business and Industry
+
+**2026–2027** — **Thijs Garcia**  
+*Title.* AI-based anomaly detection and analysis of time series in systems for water disinfection  
+*Program.* Master of Science in Artificial Intelligence in Business and Industry
 
 **2025–2026** — **Ioannis Goniadis**  
 *Title.* Feature selection for Time series anomaly detection  

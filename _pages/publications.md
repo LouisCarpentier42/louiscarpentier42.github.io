@@ -7,6 +7,10 @@ title: ""
 
 ### 2026 
 
+Carpentier, Louis, Wannes Meert, and Mathias Verbeke. _"A systematic evaluation of anomaly diagnosis in multivariate time series."_ The 38th Benelux Conference on Artificial Intelligence and the 35th Belgian Dutch Conference on Machine Learning.
+[![paper](https://img.icons8.com/ios-filled/20/file.png)](https://openreview.net/forum?id=u1O7uxxx8X)
+[![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://gitlab.kuleuven.be/m-group-campus-brugge/dtai_public/publications/adis)
+
 Louis Carpentier, Laurens Devos, Wannes Meert and Mathias Verbeke. _"HydraAD: Exceptionally fast and accurate time series anomaly detection using competing random kernels."_ Data Mining And Knowledge Discovery, DOI: 10.1007/978-3-032-37654-1_7.
 [![paper](https://img.icons8.com/ios-filled/20/file.png)](https://doi.org/10.1007/978-3-032-37654-1_7)
 [![code](https://img.icons8.com/ios-glyphs/20/github.png)](https://github.com/ML-KULeuven/HydraAD)
